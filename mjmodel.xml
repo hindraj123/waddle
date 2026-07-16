@@ -1,0 +1,11 @@
+<mujoco model="MuJoCo Model">
+  <compiler angle="radian"/>
+
+  <worldbody>
+    <geom size="5 5 0.1" type="plane"/>
+    <body pos="0 0 1">
+      <joint type="free"/>
+      <geom size="0.2"/>
+    </body>
+  </worldbody>
+</mujoco>

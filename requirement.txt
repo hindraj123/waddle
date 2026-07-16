@@ -1,0 +1,5 @@
+torch>=2.0
+numpy>=1.23
+gymnasium[mujoco]>=0.29
+mujoco>=2.3
+imageio[ffmpeg]>=2.31   # only needed if you save inference videos with --video
